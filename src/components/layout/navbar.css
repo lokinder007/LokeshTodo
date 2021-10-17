@@ -1,0 +1,115 @@
+/* ----------- navbar css style starts ---------------*/
+
+.navbar-bg {
+  background-color: rgb(152, 130, 230);
+  padding: 1rem 0;
+  z-index: 99;
+
+  position: relative;
+}
+
+
+/* .logo {
+  display: grid;
+  grid-column: 2/3;
+  
+  justify-content: start;
+  align-items: center;
+} */
+
+.logo h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(rgb(235, 8, 8), blue);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo h2 span {
+  font-size: 3rem;
+}
+
+
+
+.navbar li {
+  padding: 0 1rem;
+}
+
+.navbar li a {
+  font-size: 2rem;
+  font-weight:normal;
+  position: relative;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 2px solid blue;
+}
+
+.navbar li a:hover {
+  color: green !important;
+  text-shadow: 0 0.2rem 0.3rem green;
+  font-weight: bold; 
+}
+
+
+.social-links {
+  padding-left: 5em;
+  
+ 
+}
+.social-links a{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	line-height: 20px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 5px;
+	text-align: center;
+	border-radius: 50%;
+	color: green;
+	transition: all 0.5s ease;
+}
+.social-links a:hover{
+	color: blue;
+	background-color: #ffffff;
+}
+
+ /*
+.btn-style {
+  width: auto;
+  padding: 0 2rem;
+  height: 4rem;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: var(--primary-color);
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+.btn-style:first-child {
+  margin-right: 2rem;
+}
+
+.btn-style:hover {
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+.btn-style-border {
+  border: 0.1rem solid blue;
+  background-color: transparent;
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+.btn-style-border:hover {
+  color: #fff;
+  background-color: blue;
+  text-transform: capitalize;
+}        */                
+                        
+/* -------- Navbar ends  --------------------*/

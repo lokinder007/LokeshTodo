@@ -1,0 +1,97 @@
+
+body {
+  margin: 0;
+  background-color: aqua;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main {
+  min-height: 44em;
+  border: 8px solid #39445a93;
+  margin: 4px;
+  padding: 30px;
+  /* text-align: center; */
+  /* background-color: aqua; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+} 
+
+html {
+  font-size: 70%;
+}
+
+#Footer a:hover {
+  color: green !important;
+  
+  text-shadow: 0 0.2rem 0.3rem green;
+  /* font-weight: bold; */
+}
+
+
+/* #Main Landing Section Home Page  */
+
+#header {
+  width: 100%;
+  height: 100%;
+  margin-top: 5rem;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 40px;
+  font-weight: 700;
+  color: purple;
+}
+
+#header .brand-name {
+  color: blue;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+#header .btnA {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: blue;
+  border: 2px solid blue;
+  text-decoration: none;
+}
+
+ .btnA:hover {
+  background: blue;
+  color: #fff !important;
+}
+
+.header-img {
+  text-align: right;
+  
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+
+
+

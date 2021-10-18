@@ -19,6 +19,16 @@
     justify-content: center;
     align-items: center; */
 }
+.contact {
+    /* width: 400px; */
+    width: 50%;
+    height: auto;
+    padding: 1rem;
+    margin: 0 auto;
+    
+    text-align:left;
+}
+
 
 .form  input {
     border-radius: 8px;
@@ -46,6 +56,25 @@
     border: 1px solid #1877f2;
     color: #fff;
     width: 50%;
+    margin: 1rem auto;
+    text-align: center; 
+    font-size: 2rem;
+    padding: 0.5rem;
+    /* margin: 1rem 0; */
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+ 
+.contactbtnholder {
+    text-align: center; 
+}
+.contactbtn {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    width: 50%;
+    height: 5rem;
     margin: 1rem auto;
     text-align: center; 
     font-size: 2rem;

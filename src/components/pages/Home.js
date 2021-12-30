@@ -17,7 +17,7 @@ const Home = () => {
                                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                                     <h1>
                                         We Welcome's You In
-                                        <strong className="brand-name"> LokesApp</strong>
+                                        <strong className="brand-name"> LokeshApp</strong>
                                     </h1>
                                     <h2 className="my-3">
                                         Here You Can Find Many Services Which Will Make Your Life Easy & Happy 
